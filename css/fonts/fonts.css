@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Portico Light';
+    src: url('./portico/Portico\ Light.otf');
+}
+@font-face {
+    font-family: 'Portico Regular';
+    src: url('./portico/Portico\ Light.otf');
+}
+@font-face {
+    font-family: 'Wellingtons Light';
+    src: url('./wellingtons/TT\ Wellingtons\ Trial\ Light.otf');
+}
+@font-face {
+    font-family: 'Wellingtons Medium';
+    src: url('./wellingtons/TT\ Wellingtons\ Trial\ Medium.otf');
+}
+@font-face {
+    font-family: 'Wellingtons ExtraBold';
+    src: url('./wellingtons/TT\ Wellingtons\ Trial\ ExtraBold.otf.otf');
+}
+@font-face {
+    font-family: 'Wellingtons Black';
+    src: url('./wellingtons/TT\ Wellingtons\ Trial\ Black.otf');
+}

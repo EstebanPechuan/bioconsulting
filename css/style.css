@@ -1,0 +1,90 @@
+@import url('./fonts/fonts.css');
+
+:root {
+    --ff-portico-light: 'Portico Light';
+    --ff-portico-regular: 'Portico Regular';
+    --ff-wellingtons-light: 'Wellingtons Light';
+    --ff-wellingtons-medium: 'Wellingtons Medium';
+    --ff-wellingtons-extraBold: 'Wellingtons ExtraBold';
+    --ff-wellingtons-black: 'Wellingtons Black';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--ff-wellingtons-medium);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    width: 100%;
+    padding: 20px 50px;
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: var(--ff-portico-regular);
+    font-size: 40px;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+}
+
+#smooth-content {
+    width: 100%;
+    height: 100vh;
+    padding: 0 50px;
+    position: relative;
+
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: var(--ff-portico-regular);
+}
+
+.hero p {
+    width: 700px;
+}
+
+.a {
+    width: 100px;
+    height: 100px;
+    background: #000;
+    position: absolute;
+    left: 200px;
+}
+.b {
+    width: 100px;
+    height: 100px;
+    background: #000;
+    position: absolute;
+}
+.c {
+    width: 100px;
+    height: 100px;
+    background: #000;
+    position: absolute;
+    right: 200px;
+}
