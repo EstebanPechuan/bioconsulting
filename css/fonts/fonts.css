@@ -7,6 +7,10 @@
     src: url("./portico/Portico\ Light.otf");
 }
 @font-face {
+    font-family: "Portico Rounded";
+    src: url("./portico/Portico\ Rounded.otf.otf");
+}
+@font-face {
     font-family: "Wellingtons Light";
     src: url("./wellingtons/TT\ Wellingtons\ Trial\ Light.otf");
 }

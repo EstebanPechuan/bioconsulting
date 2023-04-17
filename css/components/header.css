@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    padding: 10px 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    color: #fff;
+    background: #0009;
+    font-size: var(--ff-wellingtons-light);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.logo {
+    font-family: var(--ff-portico-regular);
+    font-size: 40px;
+}
+
+.logo img {
+    display: block;
+    height: 80px;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+}
