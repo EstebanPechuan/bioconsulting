@@ -1,5 +1,6 @@
 @import url("./fonts/fonts.css");
 @import url("./components/header.css");
+@import url("./components/about.css");
 @import url("./components/home.css");
 @import url("./components/error.css");
 
@@ -19,6 +20,9 @@
     --clr-1: 43, 70, 60;
     --clr-2: 104, 143, 78;
     --clr-3: 177, 209, 130;
+
+    --shadow: 0 4px 4px #0004;
+    --text-shadow: 0 2px 2px #0009;
 }
 
 /* Estilos globales */
