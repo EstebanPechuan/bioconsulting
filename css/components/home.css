@@ -176,13 +176,15 @@
     text-shadow: var(--text-shadow);
 }
 
-.input__group input {
+.input__group input,
+.input__group textarea {
     width: 100%;
     padding: 15px;
     font-family: var(--ff-wellingtons-light);
     border-radius: 8px;
     border: none;
     box-shadow: var(--shadow);
+    resize: vertical;
 }
 
 .buttons {

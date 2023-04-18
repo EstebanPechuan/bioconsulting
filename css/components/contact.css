@@ -1,0 +1,76 @@
+/* Variables */
+
+:root {
+    --ff-portico-light: "Portico Light";
+    --ff-portico-regular: "Portico Regular";
+    --ff-portico-rounded: "Portico Rounded";
+    --ff-wellingtons-light: "Wellingtons Light";
+    --ff-wellingtons-medium: "Wellingtons Medium";
+    --ff-wellingtons-extraBold: "Wellingtons ExtraBold";
+    --ff-wellingtons-black: "Wellingtons Black";
+
+    --clr-dark: 28, 28, 28;
+    --clr-bg: 235, 235, 235;
+    --clr-light: 250, 250, 250;
+    --clr-1: 43, 70, 60;
+    --clr-2: 104, 143, 78;
+    --clr-3: 177, 209, 130;
+
+    --shadow: 0 4px 4px #0004;
+    --text-shadow: 0 2px 2px #0009;
+}
+
+.contact__hero {
+    background: none !important;
+}
+
+.contact__hero h2 {
+    font-size: 26px;
+    font-family: var(--ff-portico-rounded);
+    text-shadow: var(--text-shadow);
+}
+
+.contact__form {
+    background: none !important;
+    justify-content: space-between;
+}
+
+.contact__form .newsletter__form {
+    width: 60%;
+    padding: 30px 0 30px 70px;
+    margin-right: -100px;
+
+    gap: 20px;
+}
+
+.contact__form .contact__image {
+    /* width: 50%; */
+    height: 600px;
+    background: linear-gradient(
+        90deg,
+        #ebebeb 6.82%,
+        rgba(235, 235, 235, 0) 31.12%
+    );
+
+    display: flex;
+    justify-content: end;
+}
+
+.contact__form .contact__image img {
+    /* width: 100%; */
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.contact__form .newsletter__form h2 {
+    color: #000;
+    font-size: 40px;
+}
+
+.contact__form .newsletter__form {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
