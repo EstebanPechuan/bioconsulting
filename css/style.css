@@ -1,7 +1,8 @@
 @import url("./fonts/fonts.css");
 @import url("./components/header.css");
-@import url("./components/about.css");
 @import url("./components/home.css");
+@import url("./components/about.css");
+@import url("./components/newsletter.css");
 @import url("./components/error.css");
 
 /* Variables */
@@ -9,11 +10,12 @@
 :root {
     --ff-portico-light: "Portico Light";
     --ff-portico-regular: "Portico Regular";
+    --ff-portico-rounded: "Portico Rounded";
     --ff-wellingtons-light: "Wellingtons Light";
     --ff-wellingtons-medium: "Wellingtons Medium";
     --ff-wellingtons-extraBold: "Wellingtons ExtraBold";
     --ff-wellingtons-black: "Wellingtons Black";
-    
+
     --clr-dark: 28, 28, 28;
     --clr-bg: 235, 235, 235;
     --clr-light: 250, 250, 250;
@@ -74,7 +76,7 @@ input {
 .button__model {
     width: fit-content;
     padding: 10px 30px;
-    background-image: linear-gradient(275deg, #B1D182 0%, #62A94A 45%);
+    background-image: linear-gradient(275deg, #b1d182 0%, #62a94a 45%);
     color: rgb(var(--clr-light));
     border: 1px solid #fff9;
     border-radius: 8px;
@@ -82,10 +84,10 @@ input {
     font-family: var(--ff-wellingtons-extraBold);
     transition: 1s;
     cursor: pointer;
-    
+
     align-self: flex-end;
 }
 
 .button__model:hover {
-    background-image: linear-gradient(275deg, #62A94A 0%, #B1D182 45%);
+    background-image: linear-gradient(275deg, #62a94a 0%, #b1d182 45%);
 }
