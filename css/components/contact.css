@@ -32,6 +32,8 @@
 
 .contact__form {
     background: none !important;
+    border: none;
+
     justify-content: space-between;
 }
 
