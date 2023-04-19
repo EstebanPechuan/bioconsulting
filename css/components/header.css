@@ -6,16 +6,17 @@ header {
     z-index: 1000;
     color: #fff;
     background: #0009;
-    font-size: var(--ff-wellingtons-light);
 
     display: flex;
-    justify-content: space-between;
     align-items: end;
+    gap: 100px;
 }
 
 .logo {
     font-family: var(--ff-portico-regular);
     font-size: 40px;
+
+    margin-right: auto;
 }
 
 .logo img {
@@ -26,4 +27,44 @@ header {
 .menu {
     display: flex;
     gap: 10px;
+}
+
+.menu a {
+    font-family: var(--ff-wellingtons-light);
+}
+
+.menu .active a {
+    font-family: var(--ff-wellingtons-medium);
+    text-shadow: 0 0 4px #fff;
+}
+
+.idioma {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.idi {
+    width: 130px;
+    font-size: 12px;
+    cursor: pointer;
+    display: none;
+    font-family: var(--ff-wellingtons-light);
+
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.idi.active {
+    display: flex;
+}
+
+.idioma .arrow {
+    margin-left: auto;
+
+    display: flex;
+    align-items: center;
 }
