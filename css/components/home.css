@@ -116,9 +116,7 @@
     width: 100%;
     background: rgb(var(--clr-3));
     color: #fff;
-
     border-top: 15px solid rgb(var(--clr-2));
-    border-bottom: 8px solid rgb(var(--clr-2));
 
     display: flex;
     gap: 50px;

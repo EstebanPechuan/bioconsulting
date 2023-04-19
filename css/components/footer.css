@@ -1,0 +1,43 @@
+footer {
+    width: 100%;
+    padding: 20px 70px;
+    background: #fff;
+    border-top: 8px solid rgb(var(--clr-2));
+
+    position: relative;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.logo__footer {
+    height: 80px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer ul li {
+    font-size: 12px;
+    color: #0009;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul svg {
+    width: 20px !important;
+    height: 20px !important;
+    color: #000;
+}
+
+.redes {
+    position: absolute;
+    bottom: 10px;
+    right: 70px;
+}
